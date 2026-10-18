@@ -11,7 +11,7 @@ def funct(x):
         y = 3 - x
     else: 
         y = (x-3)/2
-    print(y)
+    print("x={0:.3f}  y={0:.3f}".format(x, y))
 
 def main():
     x = float(input("Введите x в промежутке от -9 до +9: "))
